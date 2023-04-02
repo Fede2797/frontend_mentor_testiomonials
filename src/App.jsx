@@ -7,11 +7,6 @@ function App() {
       <main className="px-8 py-24">
         <CardsContainer />
       </main>
-      
-      {/* <div className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Federico Passarelli</a>.
-      </div> */}
     </div>
   )
 }
