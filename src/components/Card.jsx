@@ -10,7 +10,7 @@ export const Card = ({ props }) => {
             {/* Avatar & Name */}
             <div className="flex space-x-5 items-center">
                 {/* Avatar */}
-                <div className="w-[36px]"><img className="rounded-full border-[3px] border-white/[.25]" src={`/images/${image_name}.jpg`} alt="" /></div>
+                <div className="w-[36px]"><img className="rounded-full border-[3px] border-white/[.25]" src={`./images/${image_name}.jpg`} alt="" /></div>
                 {/* Name & Title */}
                 <div className="flex flex-col space-y-[-2px]">
                 <h2 className="">{ name }</h2>
